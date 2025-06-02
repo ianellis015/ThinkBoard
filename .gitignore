@@ -1,0 +1,18 @@
+# Xcode build
+build/
+DerivedData/
+
+# Xcode workspace & user state
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# SwiftPM
+Packages/
+.swiftpm/
+.build/
+
+# Logs
+*.log
+
+# OS junk files
+.DS_Store
