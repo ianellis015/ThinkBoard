@@ -1,0 +1,62 @@
+ThinkBoard - Canvas Page: Settings & Feature Ideas
+==================================================
+
+Current Layout:
+---------------
+Screens:
+- WelcomeView
+- LoginSignupView
+- CanvasView (Main Workspace)
+
+CanvasView UI Elements:
+-----------------------
+🟦 AI Button:
+  - "Model an Idea": Feed a hypothesis to AI to generate mathematical modeling help
+  - "Analyze Board": Use image recognition to analyze hand-drawn work and suggest improvements
+  - "Visualize": Unity-powered scientific visualizations (to be implemented later)
+
+⚙️ Settings Button:
+  - Theme switcher (light/dark/custom)
+
+Suggested Additional Settings:
+------------------------------
+1. Canvas Settings:
+  - Line style/thickness (thin, medium, bold)
+  - Ink color presets (black, blue, red)
+  - Clear canvas / Start over
+  - Undo / Redo history toggle
+  - Save current board to file or library
+
+2. AI Settings:
+  - AI persona (tutor, collaborator, critic)
+  - Math mode (strict logic vs exploratory)
+  - AI verbosity (concise vs detailed)
+  - Advanced LLM config (temperature, max tokens) [advanced/future]
+
+3. Board Management:
+  - Load saved board
+  - Rename current board
+  - Export as image or PDF
+  - View version history or snapshots
+
+4. General UX Preferences:
+  - Dark mode / Light mode toggle
+  - Snap to grid (for more structured work)
+  - Enable hover tooltips (for stylus/trackpad users)
+  - Borderless / Distraction-free mode
+
+Optional Canvas Page Buttons:
+-----------------------------
+🔙 Home: Return to dashboard / exit board
+🔁 Undo/Redo: Quick sketch revision controls
+💾 Save: Manual save trigger (alongside auto-save)
+📎 Attach Reference: Add PDFs/images to the board
+🧮 Math Input: Open a math keyboard or LaTeX field
+📊 Data Tools: (Later) Small graphing or variable interaction tools
+
+Future Ideas:
+-------------
+- AI floating action button (FAB) that expands to show options
+- Real-time AI reading + suggestions while user draws
+- AI-generated overlays and feedback inline with drawings
+- Multi-board sessions with tabs or timelines
