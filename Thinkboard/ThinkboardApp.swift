@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct ThinkboardApp: App {
+    @State private var isLoggedIn = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isLoggedIn {
+                CanvasView()
+            } else {
+                LoginView(isLoggedIn: $isLoggedIn)
+            }
         }
     }
 }
