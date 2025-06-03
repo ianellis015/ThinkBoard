@@ -13,11 +13,12 @@ struct ThinkboardApp: App {
     
     var body: some Scene {
         WindowGroup {
-            if isLoggedIn {
-                CanvasView()
-            } else {
-                LoginView(isLoggedIn: $isLoggedIn)
-            }
+//            if isLoggedIn {
+//                CanvasView()
+//            } else {
+//                LoginView(isLoggedIn: $isLoggedIn)
+//            }
+            CanvasView()
         }
     }
 }

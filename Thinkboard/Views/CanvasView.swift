@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct CanvasView: View {
+    @State private var showAIInsight = true;
     var body: some View {
-        VStack {
-            Text("Thinkboard Canvas")
-                .font(.largeTitle)
-                .padding()
+        VStack(spacing: 0) {
+            TopBar()
             
-            Spacer()
+            ZStack(alignment: .topTrailing) {
+                PencilDrawingCanvas()
+                
+                if showAIInsight {
+                    AIInsightBubble()
+                        .padding()
+                }
+            }
+            .background(Color.white)
             
-            Text("Apple Pencil Support Coming Soon!")
-                .foregroundStyle(.gray)
-                .padding()
-            
-            Spacer()
+            BottomToolbar()
         }
     }
 }
